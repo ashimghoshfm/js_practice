@@ -199,10 +199,46 @@
 // }
 // result();
 
-function userNamePass(a,b){
-    document.write("Username: "+a+"</br>")
-    document.write("Password: "+b)
+// function userNamePass(a,b){
+//     document.write("Username: "+a+"</br>")
+//     document.write("Password: "+b)
+// }
+// let userName=prompt("Enter Username:")
+// let userPass=prompt("Enter Password: ")
+// userNamePass(userName,userPass);
+
+
+
+// let userName=prompt("Enter Username:");
+// let userPass=prompt("Enter Password: ");
+// (function userNamePass(a,b){
+//     document.write("Username: "+a+"</br>");
+//     document.write("Password: "+b);
+// })(userName,userPass);
+
+
+// let f1=prompt('Write 1st data: ');
+
+// var array=[44,'ashim','student','passionate'];
+// // document.write(array[0]+"</br>"+array[1]+"</br>"+array[2]+"</br>"+array[3]);
+// // document.write(array[0]);
+// // document.write(array[2]);
+// // document.write(array[3]);
+
+// for(var i=0; i<array.length; i++){
+//     document.write(array[i]+"</br>");
+// }
+
+
+
+
+
+
+var myList=new Array(5);
+for(var i=0; i<myList.length; i++){
+    myList[i]=prompt('Enter the data which is index '+i);
+    }
+
+for(var i=0; i<myList.length; i++){
+document.write(myList[i]+'</br>');
 }
-let userName=prompt("Enter Username:")
-let userPass=prompt("Enter Password: ")
-userNamePass(userName,userPass);
