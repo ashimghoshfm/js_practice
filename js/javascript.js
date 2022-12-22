@@ -183,7 +183,18 @@
 
 //================================ 22nd December, 2022 =================================
 
-function sq(num){
-    document.write('Result is: '+num**2);
+// function sq(num){
+//     document.write('Result is: '+num**2);
+// }
+// sq(7);
+
+let num1 = Number(prompt('Enter the first number: '));
+let num2 = Number(prompt('Enter the second number: '));
+let num3 = Number(prompt('Enter the third number: '));
+function result(){
+    document.write('Addition is: '+(num1+num2+num3)+'</br>');
+    document.write('Substraction is: '+(num1-num2-num3)+'</br>');
+    document.write('Multiplication is: '+(num1*num2*num3)+'</br>');
+    document.write('Division is: '+(num1/num2/num3)+'</br>');
 }
-sq(7);
+result();
