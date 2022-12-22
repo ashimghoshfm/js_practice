@@ -188,13 +188,21 @@
 // }
 // sq(7);
 
-let num1 = Number(prompt('Enter the first number: '));
-let num2 = Number(prompt('Enter the second number: '));
-let num3 = Number(prompt('Enter the third number: '));
-function result(){
-    document.write('Addition is: '+(num1+num2+num3)+'</br>');
-    document.write('Substraction is: '+(num1-num2-num3)+'</br>');
-    document.write('Multiplication is: '+(num1*num2*num3)+'</br>');
-    document.write('Division is: '+(num1/num2/num3)+'</br>');
+// let num1 = Number(prompt('Enter the first number: '));
+// let num2 = Number(prompt('Enter the second number: '));
+// let num3 = Number(prompt('Enter the third number: '));
+// function result(){
+//     document.write('Addition is: '+(num1+num2+num3)+'</br>');
+//     document.write('Substraction is: '+(num1-num2-num3)+'</br>');
+//     document.write('Multiplication is: '+(num1*num2*num3)+'</br>');
+//     document.write('Division is: '+(num1/num2/num3)+'</br>');
+// }
+// result();
+
+function userNamePass(a,b){
+    document.write("Username: "+a+"</br>")
+    document.write("Password: "+b)
 }
-result();
+let userName=prompt("Enter Username:")
+let userPass=prompt("Enter Password: ")
+userNamePass(userName,userPass);
