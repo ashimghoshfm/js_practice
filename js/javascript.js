@@ -234,7 +234,7 @@
 
 
 
-var myList=new Array(5);
+var myList = new Array(5);
 for(var i=0; i<myList.length; i++){
     myList[i]=prompt('Enter the data which is index '+i);
     }
