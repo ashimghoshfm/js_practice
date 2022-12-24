@@ -233,8 +233,19 @@
 
 
 
+// Method 1 
+// var myList = [];
+// myList.length = 4;
+// for(var i=0; i<myList.length; i++){
+//     myList[i]=prompt('Enter the data which is index '+i);
+//     }
 
-var myList = new Array(5);
+// for(var i=0; i<myList.length; i++){
+// document.write(myList[i]+'</br>');
+// }
+
+// Method 2 
+var myList = new Array(4);
 for(var i=0; i<myList.length; i++){
     myList[i]=prompt('Enter the data which is index '+i);
     }
