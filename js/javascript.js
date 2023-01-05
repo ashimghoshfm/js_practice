@@ -521,6 +521,6 @@ head1.style.textAlign = 'center'
 document.getElementById = 'header2';
 let m = document.createElement('marquee');
 m.innerHTML = 'I love leo messi';
-header1.appendChild(m)
+head1.appendChild(m);
 
 
